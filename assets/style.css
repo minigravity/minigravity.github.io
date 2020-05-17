@@ -4,7 +4,7 @@ Author: Arsalan Rashid Thoker
 arsalanrashidthoker@gmail.com
 */
 :root{
-    --font-face: 'Trebuchet MS';
+    --font-face: 'Jost', sans-serif;;
     --bgcolor :#000000e6;
     --success :#6da50b;
     --banner :#8d2aef
