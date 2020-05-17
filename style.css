@@ -92,7 +92,7 @@ arsalanrashidthoker@gmail.com
     }
 }
 body{
-    font-family: var(--font-face);
+    font-family: 'Jost', sans-serif ;
     background-color: var(--bgcolor);
     color: white;
 }
