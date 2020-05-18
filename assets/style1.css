@@ -178,8 +178,13 @@ a:hover{
 /*#content:hover{
     box-shadow: 0px 3px 3px 3px var(--banner);
 }*/
-#content:hover{
-    position:relative;
+div#content{
+    margin: 10px 10% 10px 10%;
+    text-align:center;
+}
+div#content img{
+    width:50%;
+    height:40%;
 }
 div.content-text{
     display:none;

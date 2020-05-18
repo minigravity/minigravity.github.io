@@ -30,7 +30,7 @@ arsalanrashidthoker@gmail.com
         display: grid;
         grid-gap:20px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, minmax(300px, auto));
+        grid-template-rows: repeat(2, 1fr);
     }
     nav{
         position:relative;
@@ -83,7 +83,7 @@ arsalanrashidthoker@gmail.com
         display: grid;
         grid-gap:20px;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, minmax(300px, auto));
+        grid-template-rows: repeat(4, 1fr);
     }
     nav{
         display:grid;
@@ -150,10 +150,13 @@ button{
     background-color:white;
     color:var(--banner);
 }
-.content-image img{
-    border-radius: 50%;
-    width:90%;
-    height:90%;
+div#content{
+    margin: 10px 10% 10px 10%;
+    text-align:center;
+}
+div#content img{
+    width:50%;
+    height:40%;
 }
 span.title h1{
     text-align:center;
@@ -177,30 +180,6 @@ a:hover{
 /*#content:hover{
     box-shadow: 0px 3px 3px 3px var(--banner);
 }*/
-#content:hover{
-    position:relative;
-}
-div.content-text{
-    text-align:center;
-    display:none;
-}
-div.content-image img{
-    opacity:0.8;
-    z-index:0;
-}
-div.content-image h2{
-    z-index:1;
-    position: relative;
-    left:20%;
-    bottom: 55%;
-    color:white;
-}
-
-
-div.content-image, div.content-text{
-    width:100%;
-    height:90%;
-}
 h1>span{
     color: var(--banner);
 }
