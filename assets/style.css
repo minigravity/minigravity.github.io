@@ -150,7 +150,6 @@ button{
     background-color:white;
     color:var(--banner);
 }
-<<<<<<< HEAD
 div#content{
     margin: 10px 10% 10px 10%;
     text-align:center;
@@ -158,12 +157,6 @@ div#content{
 div#content img{
     width:50%;
     height:40%;
-=======
-.content-image img{
-    width:60%;
-    height:60%;
-    margin: 15px;
->>>>>>> ecf054d66ccb2d0b05f410e43c6de3e144aa65ac
 }
 span.title h1{
     text-align:center;
