@@ -151,8 +151,8 @@ button{
     color:var(--banner);
 }
 .content-image img{
-    width:80%;
-    height:80%;
+    width:60%;
+    height:60%;
     margin: 15px;
 }
 span.title h1{
