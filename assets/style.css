@@ -151,9 +151,9 @@ button{
     color:var(--banner);
 }
 .content-image img{
+    border-radius: 50%;
     width:90%;
-    height:95%;
-    margin:15px;
+    height:90%;
 }
 span.title h1{
     text-align:center;
