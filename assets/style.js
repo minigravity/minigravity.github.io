@@ -111,6 +111,18 @@ $(function(){
             $("head").find("link[type='text/css']").attr("href", "assets/style1.css");
         }
 });
+$("div.story").hide();
+$("div.story-info").find('h4 span#hide').hide();
+$("div.story-info").find('h4 span#show').click(function(){
+    $(this).hide();
+    $("div.story").slideToggle();
+    $(this).next().show();
+});
+$("div.story-info").find('h4 span#hide').click(function(){
+    $(this).hide();
+    $("div.story").slideToggle();
+    $(this).prev().show();
+});
 $("head").find("link[type='text/css']").attr("href", file);
 
 

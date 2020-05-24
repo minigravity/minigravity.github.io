@@ -10,6 +10,18 @@ arsalanrashidthoker@gmail.com
     --banner :#8d2aef;
 }
 @media screen and (min-width:800px){
+    div.stories-page{
+        display:grid;
+        grid-gap:20px;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(1, auto);
+    }
+    .stories-page>div:first-child{
+        grid-column: 1/8;
+    }
+    .stories-page>div:nth-child(2){
+        grid-column: 8/10;
+    }
     div.brand-name img{
         text-align:left;
         width:10%;
@@ -271,6 +283,17 @@ span.cancel{
     float:right;
     margin-top:0px;
 }
+div.stories-page, .story{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    text-align:left;
+}
+div.story .question span{
+    color: #ff6060;
+}
+div.story .answer span{
+    color: #59bd59;
+}
 div.about-page{
     text-align:center;
     width: 80%;
@@ -323,5 +346,36 @@ a.btn-link:hover{
 }
 ul.devp-info a:hover{
     text-decoration:none;
+    color: var(--banner);
+}
+div.story-info span{
+    text-align:right;
+    position:relative;
+    float:right;
+}
+div.story-info span:hover{
+    color: var(--banner);
+}
+div.story-info a{
+    text-align:center;
+    font-size:small;
+}
+div.story-info a:hover{
+    border:none;
+    color: var(--banner);
+}
+div.story-title a:hover{
+    border:none;
+}
+div.block{
+    box-shadow: 0px 0px 10px #555;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+div.answer h3{
+    font-size: 20px;
+}
+h3 a:hover{
+    border:none;
     color: var(--banner);
 }
